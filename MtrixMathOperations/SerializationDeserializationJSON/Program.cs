@@ -1,13 +1,6 @@
-﻿
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.IO;
-using System.Linq;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
-
 namespace SerializationDeserializationJSON
 {
     internal class Purchase
@@ -35,6 +28,9 @@ namespace SerializationDeserializationJSON
 
             File.WriteAllText("Purchase.Json", jsonString);
 
+
+            var jsonpurchase = File.ReadAllText("Purchase.Json");
+            Purchase purchaseDes=System.Text.Json.JsonSerializer.Deserialize<Purchase>(jsonpurchase);
 
         }
     }
