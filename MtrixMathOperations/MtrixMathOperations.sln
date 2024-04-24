@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationDeserializatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationDeserializationJSON", "SerializationDeserializationJSON\SerializationDeserializationJSON.csproj", "{0A8C9E76-0015-4C1E-BAC4-52CB9226BCF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSumOperation", "TwoSumOperation\TwoSumOperation.csproj", "{024FF799-C14F-40CC-B5AB-F24A44C3BB3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0A8C9E76-0015-4C1E-BAC4-52CB9226BCF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A8C9E76-0015-4C1E-BAC4-52CB9226BCF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A8C9E76-0015-4C1E-BAC4-52CB9226BCF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024FF799-C14F-40CC-B5AB-F24A44C3BB3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024FF799-C14F-40CC-B5AB-F24A44C3BB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024FF799-C14F-40CC-B5AB-F24A44C3BB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{024FF799-C14F-40CC-B5AB-F24A44C3BB3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
