@@ -41,6 +41,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphabetTriangle", "Alphabe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintDiamondShape", "PrintDiamondShape\PrintDiamondShape.csproj", "{E1E31D0D-6B88-4DF9-9671-1452C86CD3A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateRegistrationNumberAuto", "GenerateRegistrationNumberAuto\GenerateRegistrationNumberAuto.csproj", "{D415BC41-AB13-4623-81D7-68C2223C7F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateMarkSheet", "GenerateMarkSheet\GenerateMarkSheet.csproj", "{25541FD8-F8EE-4DBF-9408-C10F66A93742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductOfNumbersRecursion", "ProductOfNumbersRecursion\ProductOfNumbersRecursion.csproj", "{85B961E5-E82E-481A-9765-1E150413AA3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{ABBBB851-37AC-4442-AE0D-3578430C4B4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberIntoWords", "NumberIntoWords\NumberIntoWords.csproj", "{1CD2693A-CE9E-4FF8-8AFA-08A13222D98D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +133,26 @@ Global
 		{E1E31D0D-6B88-4DF9-9671-1452C86CD3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1E31D0D-6B88-4DF9-9671-1452C86CD3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1E31D0D-6B88-4DF9-9671-1452C86CD3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D415BC41-AB13-4623-81D7-68C2223C7F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D415BC41-AB13-4623-81D7-68C2223C7F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D415BC41-AB13-4623-81D7-68C2223C7F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D415BC41-AB13-4623-81D7-68C2223C7F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25541FD8-F8EE-4DBF-9408-C10F66A93742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25541FD8-F8EE-4DBF-9408-C10F66A93742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25541FD8-F8EE-4DBF-9408-C10F66A93742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25541FD8-F8EE-4DBF-9408-C10F66A93742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B961E5-E82E-481A-9765-1E150413AA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B961E5-E82E-481A-9765-1E150413AA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B961E5-E82E-481A-9765-1E150413AA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B961E5-E82E-481A-9765-1E150413AA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBBB851-37AC-4442-AE0D-3578430C4B4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBBB851-37AC-4442-AE0D-3578430C4B4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBBB851-37AC-4442-AE0D-3578430C4B4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBBB851-37AC-4442-AE0D-3578430C4B4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CD2693A-CE9E-4FF8-8AFA-08A13222D98D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CD2693A-CE9E-4FF8-8AFA-08A13222D98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CD2693A-CE9E-4FF8-8AFA-08A13222D98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CD2693A-CE9E-4FF8-8AFA-08A13222D98D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
