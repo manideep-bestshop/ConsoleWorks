@@ -32,7 +32,7 @@ namespace NumberIntoWords
             for (j = i - 1; j >= 0; j--)
             {
                 Console.Write(words[digit_array[j]] + " ");
-            }
+            } 
             Console.WriteLine();
         }
         static void Main(string[] args)

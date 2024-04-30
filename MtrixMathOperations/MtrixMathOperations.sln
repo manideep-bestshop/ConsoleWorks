@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberIntoWords", "NumberIntoWords\NumberIntoWords.csproj", "{1CD2693A-CE9E-4FF8-8AFA-08A13222D98D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{79F7C125-A2A4-4988-9B44-59F061375FCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{1CD2693A-CE9E-4FF8-8AFA-08A13222D98D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CD2693A-CE9E-4FF8-8AFA-08A13222D98D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CD2693A-CE9E-4FF8-8AFA-08A13222D98D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F7C125-A2A4-4988-9B44-59F061375FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F7C125-A2A4-4988-9B44-59F061375FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F7C125-A2A4-4988-9B44-59F061375FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F7C125-A2A4-4988-9B44-59F061375FCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
