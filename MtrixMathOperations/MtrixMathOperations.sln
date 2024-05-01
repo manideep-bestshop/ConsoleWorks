@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberIntoWords", "NumberIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchCase", "SwitchCase\SwitchCase.csproj", "{79F7C125-A2A4-4988-9B44-59F061375FCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisplayATMTransaction", "DisplayATMTransaction\DisplayATMTransaction.csproj", "{09B6A179-AC6E-46D6-AA48-9C314BAE5A43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{580810BE-0AD4-411B-8678-4D66DA7DACCA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{79F7C125-A2A4-4988-9B44-59F061375FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79F7C125-A2A4-4988-9B44-59F061375FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79F7C125-A2A4-4988-9B44-59F061375FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B6A179-AC6E-46D6-AA48-9C314BAE5A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B6A179-AC6E-46D6-AA48-9C314BAE5A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B6A179-AC6E-46D6-AA48-9C314BAE5A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B6A179-AC6E-46D6-AA48-9C314BAE5A43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{580810BE-0AD4-411B-8678-4D66DA7DACCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{580810BE-0AD4-411B-8678-4D66DA7DACCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{580810BE-0AD4-411B-8678-4D66DA7DACCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{580810BE-0AD4-411B-8678-4D66DA7DACCA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
