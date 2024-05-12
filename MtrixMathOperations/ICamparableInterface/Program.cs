@@ -39,6 +39,10 @@ namespace ICamparableInterface
 
     internal class Program
     {
+        public static int CompareNames(Customer c1,Customer c2)
+        {
+            return c1.Name.CompareTo(c2.Name);
+        }
         static void Main(string[] args)
         {
 
@@ -49,9 +53,16 @@ namespace ICamparableInterface
 
 
             List<Customer> customerList = new List<Customer>() { c1, c2, c3, c4 };
-            CustomerComparer c = new CustomerComparer();
-            customerList.Sort(c);
+            // customerList.Sort();
+            //  CustomerComparer c = new CustomerComparer();
+            // customerList.Sort(c);
+            //customerList.Sort(1, 3, c);
 
+            //Comparison<Customer> cc = new Comparison<Customer>(CompareNames);
+           // customerList.Sort(cc);
+          // customerList.Sort(delegate(Customer customer1,Customer customer2) { return customer1.Name.CompareTo(customer2.Name); });
+          //customerList.Sort(CompareNames);
+          customerList.Sort((c5,c6)=>c5.Name.CompareTo(c6.Name));
             foreach (Customer obj in customerList)
             {
                 Console.Write("Id :" + obj.Id + ", Name :" + obj.Name + ", Address :" + obj.Address + ", Bill :" + obj.Bill);
