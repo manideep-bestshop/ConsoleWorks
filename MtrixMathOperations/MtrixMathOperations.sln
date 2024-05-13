@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICamparableInterface", "ICa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableInterface", "IEnumerableInterface\IEnumerableInterface.csproj", "{65F4EC12-5197-4BB6-834A-597B2D84DC92}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateExamples", "DelegateExamples\DelegateExamples.csproj", "{749EAB95-A76D-4F45-BCE4-24E4ED23531C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{65F4EC12-5197-4BB6-834A-597B2D84DC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65F4EC12-5197-4BB6-834A-597B2D84DC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65F4EC12-5197-4BB6-834A-597B2D84DC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749EAB95-A76D-4F45-BCE4-24E4ED23531C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749EAB95-A76D-4F45-BCE4-24E4ED23531C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749EAB95-A76D-4F45-BCE4-24E4ED23531C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749EAB95-A76D-4F45-BCE4-24E4ED23531C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
