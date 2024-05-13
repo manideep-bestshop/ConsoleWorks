@@ -24,12 +24,12 @@ namespace DelegateExamples
         {
             Program obj = new Program();
 
-            addnum del_obj1 = new addnum(obj.sum);
-            subnum del_obj2 = new subnum(obj.subtract);
+            addnum delObj1 = new addnum(obj.sum);
+            subnum delObj2 = new subnum(obj.subtract);
 
           
-            del_obj1(100, 40);
-            del_obj2(100, 60);
+            delObj1(100, 40);
+            delObj2(100, 60);
 
         }
     }
