@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IEnumerableInterface", "IEn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateExamples", "DelegateExamples\DelegateExamples.csproj", "{749EAB95-A76D-4F45-BCE4-24E4ED23531C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegate", "MulticastDelegate\MulticastDelegate.csproj", "{0089BC25-3A24-40E2-84F9-0EF20FF46995}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -291,6 +293,10 @@ Global
 		{749EAB95-A76D-4F45-BCE4-24E4ED23531C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{749EAB95-A76D-4F45-BCE4-24E4ED23531C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{749EAB95-A76D-4F45-BCE4-24E4ED23531C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0089BC25-3A24-40E2-84F9-0EF20FF46995}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0089BC25-3A24-40E2-84F9-0EF20FF46995}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0089BC25-3A24-40E2-84F9-0EF20FF46995}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0089BC25-3A24-40E2-84F9-0EF20FF46995}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
