@@ -99,6 +99,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateExamples", "Delegat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MulticastDelegate", "MulticastDelegate\MulticastDelegate.csproj", "{0089BC25-3A24-40E2-84F9-0EF20FF46995}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionVsInterface", "AbstractionVsInterface\AbstractionVsInterface.csproj", "{BF394FBC-E488-4447-B77C-07C790E3262B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{0089BC25-3A24-40E2-84F9-0EF20FF46995}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0089BC25-3A24-40E2-84F9-0EF20FF46995}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0089BC25-3A24-40E2-84F9-0EF20FF46995}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF394FBC-E488-4447-B77C-07C790E3262B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF394FBC-E488-4447-B77C-07C790E3262B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF394FBC-E488-4447-B77C-07C790E3262B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF394FBC-E488-4447-B77C-07C790E3262B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
