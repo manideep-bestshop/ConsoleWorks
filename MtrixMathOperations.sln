@@ -105,6 +105,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClassAndMembers", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionExamples", "AbstractionExamples\AbstractionExamples.csproj", "{9C78296D-A2E3-41D3-A488-A9CC5F2E0ADC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BoxingUnBoxing", "BoxingUnBoxing\BoxingUnBoxing.csproj", "{E5C807FA-B569-4145-9639-78DD35EFF0BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -315,6 +317,10 @@ Global
 		{9C78296D-A2E3-41D3-A488-A9CC5F2E0ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C78296D-A2E3-41D3-A488-A9CC5F2E0ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C78296D-A2E3-41D3-A488-A9CC5F2E0ADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C807FA-B569-4145-9639-78DD35EFF0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C807FA-B569-4145-9639-78DD35EFF0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C807FA-B569-4145-9639-78DD35EFF0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C807FA-B569-4145-9639-78DD35EFF0BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
