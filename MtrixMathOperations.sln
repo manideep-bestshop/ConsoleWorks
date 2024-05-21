@@ -111,6 +111,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysExamples", "ArraysExa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAndStringBuilder", "StringAndStringBuilder\StringAndStringBuilder.csproj", "{4FF6834B-A2AA-4406-8B5E-789F3D2F7A1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectAsArray", "ObjectAsArray\ObjectAsArray.csproj", "{9B5A0602-D178-475F-BDD9-F376DDD15A86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -333,6 +335,10 @@ Global
 		{4FF6834B-A2AA-4406-8B5E-789F3D2F7A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FF6834B-A2AA-4406-8B5E-789F3D2F7A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FF6834B-A2AA-4406-8B5E-789F3D2F7A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5A0602-D178-475F-BDD9-F376DDD15A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5A0602-D178-475F-BDD9-F376DDD15A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5A0602-D178-475F-BDD9-F376DDD15A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5A0602-D178-475F-BDD9-F376DDD15A86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
