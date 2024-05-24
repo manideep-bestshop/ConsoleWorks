@@ -117,6 +117,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverLoading", "Method
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandlings", "ExceptionHandlings\ExceptionHandlings.csproj", "{10C3886A-0330-48EE-8583-9C8F88B65C55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionExamples", "ReflectionExamples\ReflectionExamples.csproj", "{6AD7F234-36B6-4607-8936-C933EED41099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -351,6 +353,10 @@ Global
 		{10C3886A-0330-48EE-8583-9C8F88B65C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10C3886A-0330-48EE-8583-9C8F88B65C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10C3886A-0330-48EE-8583-9C8F88B65C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AD7F234-36B6-4607-8936-C933EED41099}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD7F234-36B6-4607-8936-C933EED41099}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD7F234-36B6-4607-8936-C933EED41099}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD7F234-36B6-4607-8936-C933EED41099}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
