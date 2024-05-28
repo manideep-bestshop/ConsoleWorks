@@ -127,6 +127,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayArrayListDictionaryLis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticMembers", "StaticMembers\StaticMembers.csproj", "{D88FC71E-2D10-444D-B7B2-57CBF5BB6043}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopsExamples", "OopsExamples\OopsExamples.csproj", "{E964727E-D413-4AB9-875F-54F4EDD89F63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{D88FC71E-2D10-444D-B7B2-57CBF5BB6043}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D88FC71E-2D10-444D-B7B2-57CBF5BB6043}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D88FC71E-2D10-444D-B7B2-57CBF5BB6043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E964727E-D413-4AB9-875F-54F4EDD89F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E964727E-D413-4AB9-875F-54F4EDD89F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E964727E-D413-4AB9-875F-54F4EDD89F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E964727E-D413-4AB9-875F-54F4EDD89F63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
