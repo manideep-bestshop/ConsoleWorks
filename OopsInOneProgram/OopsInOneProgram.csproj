@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{27202A65-B035-4D09-B654-A9FBBD4CD818}</ProjectGuid>
+    <ProjectGuid>{ADCBF3D7-627A-4ACA-9D43-E4CB5F89CED9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EncapsulationExample</RootNamespace>
-    <AssemblyName>EncapsulationExample</AssemblyName>
+    <RootNamespace>OopsInOneProgram</RootNamespace>
+    <AssemblyName>OopsInOneProgram</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>EncapsulationExample.OopsInOneProgram</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractionExample.cs" />
-    <Compile Include="InheritanceExample.cs" />
-    <Compile Include="PolymorphismExample.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

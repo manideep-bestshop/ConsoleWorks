@@ -131,6 +131,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopsExamples", "OopsExample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationExample", "EncapsulationExample\EncapsulationExample.csproj", "{27202A65-B035-4D09-B654-A9FBBD4CD818}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopsInOneProgram", "OopsInOneProgram\OopsInOneProgram.csproj", "{ADCBF3D7-627A-4ACA-9D43-E4CB5F89CED9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +395,10 @@ Global
 		{27202A65-B035-4D09-B654-A9FBBD4CD818}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27202A65-B035-4D09-B654-A9FBBD4CD818}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27202A65-B035-4D09-B654-A9FBBD4CD818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCBF3D7-627A-4ACA-9D43-E4CB5F89CED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCBF3D7-627A-4ACA-9D43-E4CB5F89CED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCBF3D7-627A-4ACA-9D43-E4CB5F89CED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCBF3D7-627A-4ACA-9D43-E4CB5F89CED9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
