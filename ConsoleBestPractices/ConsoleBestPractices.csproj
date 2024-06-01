@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleBestPractices.NumbersBelowAboveAverage</StartupObject>
+    <StartupObject>ConsoleBestPractices.SRPandEncapsulation</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,6 +49,8 @@
     <Compile Include="CompoundInterest.cs" />
     <Compile Include="CountTheNumberOfWords.cs" />
     <Compile Include="EvenOddNumber.cs" />
+    <Compile Include="InterfaceAndDI.cs" />
+    <Compile Include="NamingConventions.cs" />
     <Compile Include="NetworkDomainName.cs" />
     <Compile Include="NumbersBelowAboveAverage.cs" />
     <Compile Include="PasswordGenerator.cs" />
@@ -56,6 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RelationalPattern.cs" />
     <Compile Include="RockPaperGame.cs" />
+    <Compile Include="SRPandEncapsulation.cs" />
     <Compile Include="UsePropertiesInsteadOfVariables.cs" />
   </ItemGroup>
   <ItemGroup>
