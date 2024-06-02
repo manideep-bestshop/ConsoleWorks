@@ -46,10 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AsynchronousExam.cs" />
     <Compile Include="CompoundInterest.cs" />
     <Compile Include="CountTheNumberOfWords.cs" />
+    <Compile Include="ErrorHandling.cs" />
     <Compile Include="EvenOddNumber.cs" />
     <Compile Include="InterfaceAndDI.cs" />
+    <Compile Include="LINQQueries.cs" />
     <Compile Include="NamingConventions.cs" />
     <Compile Include="NetworkDomainName.cs" />
     <Compile Include="NumbersBelowAboveAverage.cs" />
