@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{30E0ED5F-2D22-410F-B954-3A0B95CDB9EB}</ProjectGuid>
+    <ProjectGuid>{0E0B9E8A-9D53-4301-9BAB-CCBB7DE18B80}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>QualityCodeWritting</RootNamespace>
-    <AssemblyName>QualityCodeWritting</AssemblyName>
+    <RootNamespace>StringStringBuilder</RootNamespace>
+    <AssemblyName>StringStringBuilder</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>QualityCodeWritting.LINQforCollections</StartupObject>
+    <StartupObject>StringStringBuilder.StringManipulation</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommentProperly.cs" />
-    <Compile Include="HandlingExceptionsProperly.cs" />
-    <Compile Include="KeepMethodsShortsandFocused.cs" />
-    <Compile Include="LINQforCollections.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringBuilderEfficient.cs" />
+    <Compile Include="stringCancatenation.cs" />
+    <Compile Include="StringManipulation.cs" />
+    <Compile Include="StringWithLoop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

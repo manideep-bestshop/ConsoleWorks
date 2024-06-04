@@ -137,6 +137,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleBestPractices", "Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QualityCodeWritting", "QualityCodeWritting\QualityCodeWritting.csproj", "{30E0ED5F-2D22-410F-B954-3A0B95CDB9EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringStringBuilder", "StringStringBuilder\StringStringBuilder.csproj", "{0E0B9E8A-9D53-4301-9BAB-CCBB7DE18B80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -411,6 +413,10 @@ Global
 		{30E0ED5F-2D22-410F-B954-3A0B95CDB9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30E0ED5F-2D22-410F-B954-3A0B95CDB9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30E0ED5F-2D22-410F-B954-3A0B95CDB9EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E0B9E8A-9D53-4301-9BAB-CCBB7DE18B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E0B9E8A-9D53-4301-9BAB-CCBB7DE18B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E0B9E8A-9D53-4301-9BAB-CCBB7DE18B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E0B9E8A-9D53-4301-9BAB-CCBB7DE18B80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
