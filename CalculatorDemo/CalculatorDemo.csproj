@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11669C66-4A46-4CCE-87AF-65CFBFE85288}</ProjectGuid>
+    <ProjectGuid>{08CAB7C8-66B6-410E-A85F-F489B5B91F40}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleBestPractices</RootNamespace>
-    <AssemblyName>ConsoleBestPractices</AssemblyName>
+    <RootNamespace>CalculatorDemo</RootNamespace>
+    <AssemblyName>CalculatorDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>ConsoleBestPractices.UseCsharpFeature</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,25 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AsynchronousExam.cs" />
-    <Compile Include="CalculatorDemo.cs" />
-    <Compile Include="CompoundInterest.cs" />
-    <Compile Include="CountTheNumberOfWords.cs" />
-    <Compile Include="ErrorHandling.cs" />
-    <Compile Include="EvenOddNumber.cs" />
-    <Compile Include="InterfaceAndDI.cs" />
-    <Compile Include="LINQQueries.cs" />
-    <Compile Include="NamingConventions.cs" />
-    <Compile Include="NetworkDomainName.cs" />
-    <Compile Include="NumbersBelowAboveAverage.cs" />
-    <Compile Include="PasswordGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RelationalPattern.cs" />
-    <Compile Include="RockPaperGame.cs" />
-    <Compile Include="SRPandEncapsulation.cs" />
-    <Compile Include="UseCsharpFeature.cs" />
-    <Compile Include="UsePropertiesInsteadOfVariables.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

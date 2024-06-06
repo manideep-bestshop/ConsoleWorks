@@ -141,6 +141,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringStringBuilder", "Stri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsDemo", "CollectionsDemo\CollectionsDemo.csproj", "{B0899984-4451-444B-B69A-E711CB0CE190}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorDemo", "CalculatorDemo\CalculatorDemo.csproj", "{08CAB7C8-66B6-410E-A85F-F489B5B91F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteTakingProject", "NoteTakingProject\NoteTakingProject.csproj", "{DD75DBB1-EE59-4462-8911-A97358E269D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -423,6 +427,14 @@ Global
 		{B0899984-4451-444B-B69A-E711CB0CE190}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0899984-4451-444B-B69A-E711CB0CE190}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0899984-4451-444B-B69A-E711CB0CE190}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08CAB7C8-66B6-410E-A85F-F489B5B91F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08CAB7C8-66B6-410E-A85F-F489B5B91F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08CAB7C8-66B6-410E-A85F-F489B5B91F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08CAB7C8-66B6-410E-A85F-F489B5B91F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD75DBB1-EE59-4462-8911-A97358E269D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD75DBB1-EE59-4462-8911-A97358E269D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD75DBB1-EE59-4462-8911-A97358E269D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD75DBB1-EE59-4462-8911-A97358E269D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
