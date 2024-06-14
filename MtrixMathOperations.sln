@@ -145,6 +145,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorDemo", "Calculato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteTakingProject", "NoteTakingProject\NoteTakingProject.csproj", "{DD75DBB1-EE59-4462-8911-A97358E269D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExamples", "StringExamples\StringExamples.csproj", "{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -435,6 +437,10 @@ Global
 		{DD75DBB1-EE59-4462-8911-A97358E269D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD75DBB1-EE59-4462-8911-A97358E269D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD75DBB1-EE59-4462-8911-A97358E269D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
