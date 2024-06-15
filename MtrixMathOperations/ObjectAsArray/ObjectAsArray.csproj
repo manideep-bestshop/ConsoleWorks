@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{749EAB95-A76D-4F45-BCE4-24E4ED23531C}</ProjectGuid>
+    <ProjectGuid>{9B5A0602-D178-475F-BDD9-F376DDD15A86}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DelegateExamples</RootNamespace>
-    <AssemblyName>DelegateExamples</AssemblyName>
+    <RootNamespace>ObjectAsArray</RootNamespace>
+    <AssemblyName>ObjectAsArray</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DelegateExamples.PredicateDelegate</StartupObject>
+    <StartupObject>ObjectAsArray.InstanceOfOuterClassInMemberClss</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,10 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionDelegate.cs" />
-    <Compile Include="CustomDelegate.cs" />
-    <Compile Include="MulticastDelegate.cs" />
-    <Compile Include="PredicateDelegate.cs" />
+    <Compile Include="InstanceInOuterClass.cs" />
+    <Compile Include="InstanceOfOuterClassInMemberClss.cs" />
+    <Compile Include="MemberClasses.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{749EAB95-A76D-4F45-BCE4-24E4ED23531C}</ProjectGuid>
+    <ProjectGuid>{08CAB7C8-66B6-410E-A85F-F489B5B91F40}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DelegateExamples</RootNamespace>
-    <AssemblyName>DelegateExamples</AssemblyName>
+    <RootNamespace>CalculatorDemo</RootNamespace>
+    <AssemblyName>CalculatorDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>DelegateExamples.PredicateDelegate</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,10 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionDelegate.cs" />
-    <Compile Include="CustomDelegate.cs" />
-    <Compile Include="MulticastDelegate.cs" />
-    <Compile Include="PredicateDelegate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

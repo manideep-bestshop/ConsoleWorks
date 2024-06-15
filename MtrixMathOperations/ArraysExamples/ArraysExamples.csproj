@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{749EAB95-A76D-4F45-BCE4-24E4ED23531C}</ProjectGuid>
+    <ProjectGuid>{3D4E44F7-0C9F-4647-8FBC-FCFC6F437C94}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DelegateExamples</RootNamespace>
-    <AssemblyName>DelegateExamples</AssemblyName>
+    <RootNamespace>ArraysExamples</RootNamespace>
+    <AssemblyName>ArraysExamples</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DelegateExamples.PredicateDelegate</StartupObject>
+    <StartupObject>ArraysExamples._2DArray</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionDelegate.cs" />
-    <Compile Include="CustomDelegate.cs" />
-    <Compile Include="MulticastDelegate.cs" />
-    <Compile Include="PredicateDelegate.cs" />
+    <Compile Include="2DArray.cs" />
+    <Compile Include="DeepCopy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShallowCopy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

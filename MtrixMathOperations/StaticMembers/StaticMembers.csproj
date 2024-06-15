@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{749EAB95-A76D-4F45-BCE4-24E4ED23531C}</ProjectGuid>
+    <ProjectGuid>{D88FC71E-2D10-444D-B7B2-57CBF5BB6043}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DelegateExamples</RootNamespace>
-    <AssemblyName>DelegateExamples</AssemblyName>
+    <RootNamespace>StaticMembers</RootNamespace>
+    <AssemblyName>StaticMembers</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DelegateExamples.PredicateDelegate</StartupObject>
+    <StartupObject>StaticMembers.StaticEx</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionDelegate.cs" />
-    <Compile Include="CustomDelegate.cs" />
-    <Compile Include="MulticastDelegate.cs" />
-    <Compile Include="PredicateDelegate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaticClass.cs" />
+    <Compile Include="StaticEx.cs" />
+    <Compile Include="StaticMethod.cs" />
+    <Compile Include="StaticVarEx.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

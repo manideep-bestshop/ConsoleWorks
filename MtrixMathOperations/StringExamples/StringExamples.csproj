@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{749EAB95-A76D-4F45-BCE4-24E4ED23531C}</ProjectGuid>
+    <ProjectGuid>{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DelegateExamples</RootNamespace>
-    <AssemblyName>DelegateExamples</AssemblyName>
+    <RootNamespace>StringExamples</RootNamespace>
+    <AssemblyName>StringExamples</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DelegateExamples.PredicateDelegate</StartupObject>
+    <StartupObject>StringExamples.CountVowelsConsonants</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,12 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionDelegate.cs" />
-    <Compile Include="CustomDelegate.cs" />
-    <Compile Include="MulticastDelegate.cs" />
-    <Compile Include="PredicateDelegate.cs" />
+    <Compile Include="CountAlphabetsDigits.cs" />
+    <Compile Include="CountVowelsConsonants.cs" />
+    <Compile Include="NumberOfWords.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stingCopy.cs" />
+    <Compile Include="StringLength.cs" />
+    <Compile Include="StringLengthCompare.cs" />
+    <Compile Include="StringReverse.cs" />
+    <Compile Include="StringWithSpace.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

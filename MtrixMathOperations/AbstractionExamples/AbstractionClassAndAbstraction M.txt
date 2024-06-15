@@ -1,0 +1,15 @@
+Abstraction Class and Abstraction Method
+----------------------------------------
+1.An abstract method is a method in which declaration is provided but not implementation(method declaration is called signature).
+
+2. A class with one or more abstract methods declared as abstract that class should also be declared as abstract and such class can not be instantiated because it is incomplete.
+
+3.A class that inherits abstract class must override all the abstract members else that class should be marked as Abstract.
+(Abstract=Pure virtual)
+
+4.We can create abstract class without abstract members and such class even cant be instantiated.
+
+5.abstract method can not be created with private access modifier and it cant be static as well.
+
+6.Abstract class object can be assigned with reference of derived class and the object of abstract class and now can access its members and overridden methods.
+
