@@ -147,6 +147,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoteTakingProject", "NoteTa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExamples", "StringExamples\StringExamples.csproj", "{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopsPractice", "LoopsPractice\LoopsPractice.csproj", "{B0D6A24C-0AD2-4FE4-9E2E-4A27522B79D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -441,6 +443,10 @@ Global
 		{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0D6A24C-0AD2-4FE4-9E2E-4A27522B79D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0D6A24C-0AD2-4FE4-9E2E-4A27522B79D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0D6A24C-0AD2-4FE4-9E2E-4A27522B79D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0D6A24C-0AD2-4FE4-9E2E-4A27522B79D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

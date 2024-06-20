@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FD7F3C61-44FF-4B79-AE5D-A49D19E8A8A7}</ProjectGuid>
+    <ProjectGuid>{B0D6A24C-0AD2-4FE4-9E2E-4A27522B79D7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StringExamples</RootNamespace>
-    <AssemblyName>StringExamples</AssemblyName>
+    <RootNamespace>LoopsPractice</RootNamespace>
+    <AssemblyName>LoopsPractice</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>StringExamples.CountVowelsConsonants</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,16 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CountAlphabetsDigits.cs" />
-    <Compile Include="CountVowelsConsonants.cs" />
-    <Compile Include="NumberOfWords.cs" />
+    <Compile Include="CubeOfInteger.cs" />
+    <Compile Include="FindAverage.cs" />
+    <Compile Include="MultiplicationTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="stingCopy.cs" />
-    <Compile Include="StringLength.cs" />
-    <Compile Include="StringLengthCompare.cs" />
-    <Compile Include="StringReverse.cs" />
-    <Compile Include="StringWithSpace.cs" />
+    <Compile Include="SumofFirstTenNaturalNumbers.cs" />
+    <Compile Include="SumofNnaturalNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
