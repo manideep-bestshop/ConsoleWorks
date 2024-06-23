@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>LoopsPractice.PyramidPattern</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -44,10 +47,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CubeOfInteger.cs" />
+    <Compile Include="DisplayOddNumbers.cs" />
+    <Compile Include="factorialnumber.cs" />
     <Compile Include="FindAverage.cs" />
     <Compile Include="MultiplicationTable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PyramidPattern.cs" />
+    <Compile Include="RightAnglePattern.cs" />
+    <Compile Include="RightAngleWithNumbers.cs" />
     <Compile Include="SumofFirstTenNaturalNumbers.cs" />
     <Compile Include="SumofNnaturalNumbers.cs" />
   </ItemGroup>
