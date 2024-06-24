@@ -149,6 +149,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExamples", "StringExa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopsPractice", "LoopsPractice\LoopsPractice.csproj", "{B0D6A24C-0AD2-4FE4-9E2E-4A27522B79D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayExamples", "ArrayExamples\ArrayExamples.csproj", "{32068BCC-C0D4-4055-AD84-C52EF2436631}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -447,6 +449,10 @@ Global
 		{B0D6A24C-0AD2-4FE4-9E2E-4A27522B79D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0D6A24C-0AD2-4FE4-9E2E-4A27522B79D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0D6A24C-0AD2-4FE4-9E2E-4A27522B79D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32068BCC-C0D4-4055-AD84-C52EF2436631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32068BCC-C0D4-4055-AD84-C52EF2436631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32068BCC-C0D4-4055-AD84-C52EF2436631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32068BCC-C0D4-4055-AD84-C52EF2436631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
