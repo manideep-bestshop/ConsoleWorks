@@ -155,6 +155,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsExamples", "MethodsE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQExamples", "LINQExamples\LINQExamples.csproj", "{EB275965-4147-4F18-AB30-E9CAF68CE483}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeExamples", "DateTimeExamples\DateTimeExamples.csproj", "{367E065F-3D11-480D-B5BF-F5482FF5C242}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -465,6 +467,10 @@ Global
 		{EB275965-4147-4F18-AB30-E9CAF68CE483}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB275965-4147-4F18-AB30-E9CAF68CE483}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB275965-4147-4F18-AB30-E9CAF68CE483}.Release|Any CPU.Build.0 = Release|Any CPU
+		{367E065F-3D11-480D-B5BF-F5482FF5C242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{367E065F-3D11-480D-B5BF-F5482FF5C242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{367E065F-3D11-480D-B5BF-F5482FF5C242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{367E065F-3D11-480D-B5BF-F5482FF5C242}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
